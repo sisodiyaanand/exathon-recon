@@ -1,0 +1,38 @@
+
+== RECON SUMMARY ==
+STATUS | TXN_CNT | AMOUNT_IN_QUESTION
+MATCHED | 924812 | 0
+AMOUNT_MISMATCH | 30135 | 768743.7
+MATCHED_FUZZY | 24918 | 0
+MISSING_IN_BANK | 20135 | 57271614.1
+UNMATCHED_BANK | 15240 | 27520028.58
+DUPLICATE_POSTING | 9559 | 26499440.55
+
+== FRAUD METRICS (HIGH band) ==
+TRUE_POS | FALSE_POS | FALSE_NEG | PRECISION_PCT | RECALL_PCT
+7804 | 94 | 196 | 98.8 | 97.6
+
+== RISK BANDS ==
+RISK_BAND | CNT
+LOW | 990289
+HIGH | 7898
+MEDIUM | 1813
+
+== FRAUD PATTERNS CAUGHT ==
+PATTERN | TOTAL | CAUGHT_HIGH
+velocity_burst | 3200 | 3038
+account_takeover | 2800 | 2800
+amount_spike | 2000 | 1966
+
+== TOP 10 HIGH RISK ==
+TXN_ID | CUSTOMER_ID | AMOUNT | CITY | SCORE | REASONS
+111488 | 7383 | 49977.58 | Kyiv | 100 | amount far above customer norm, foreign location, rarely used device, night-time high value, 
+612355 | 47289 | 49977.07 | Lagos | 100 | amount far above customer norm, foreign location, rarely used device, night-time high value, 
+322152 | 4815 | 49914.82 | Bucharest | 100 | amount far above customer norm, foreign location, rarely used device, night-time high value, 
+889278 | 14814 | 49908.67 | Singapore | 100 | amount far above customer norm, foreign location, rarely used device, night-time high value, 
+289157 | 41304 | 49866.67 | Singapore | 100 | amount far above customer norm, foreign location, rarely used device, night-time high value, 
+222590 | 45011 | 49850.82 | Singapore | 100 | amount far above customer norm, foreign location, rarely used device, night-time high value, 
+455454 | 13852 | 49825.18 | Singapore | 100 | amount far above customer norm, foreign location, rarely used device, night-time high value, 
+633989 | 29374 | 49801.26 | Lagos | 100 | amount far above customer norm, foreign location, rarely used device, night-time high value, 
+255732 | 4685 | 49772.29 | Bucharest | 100 | amount far above customer norm, foreign location, rarely used device, night-time high value, 
+100553 | 27755 | 49766.01 | Kyiv | 100 | amount far above customer norm, foreign location, rarely used device, night-time high value, 
