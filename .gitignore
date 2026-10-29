@@ -3,3 +3,4 @@ venv/
 __pycache__/
 exasol.exe
 info.txt
+data/
