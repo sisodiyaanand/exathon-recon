@@ -6,6 +6,7 @@ One explainable, set-based SQL pipeline that (1) reconciles a 1,000,000-transact
 
 - Pitch deck: [`docs/ExaThon_Deck.pdf`](docs/ExaThon_Deck.pdf)
 - Demo video (3 min): https://drive.google.com/file/d/1GtoUnzQwNzWpCe8DvYPsLVYpY_YN8vsw/view?usp=sharing
+- Backup copy of the demo video: [`docs/ExaThon_Demo_Final.mp4`](docs/ExaThon_Demo_Final.mp4)
 - License: MIT
 
 ---
