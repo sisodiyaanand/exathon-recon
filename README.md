@@ -139,7 +139,7 @@ docs/                  pitch deck (PDF)
 
 - Exasol Personal (database), Podman (local container runtime used by Exasol Personal)
 - Python, `pyexasol` (connection and CSV import); `pandas`, `faker` (data generation); `streamlit` (optional dashboard)
-- No external APIs, and no LLM is called at runtime. Development was assisted by an AI model (Claude).
+- No external APIs, and no LLM is called at runtime.
 
 ## 9. Limitations and future work
 
